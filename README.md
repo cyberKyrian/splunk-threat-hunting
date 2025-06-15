@@ -17,7 +17,7 @@ Splunk’s powerful query language (SPL) and visualization capabilities were use
 
 ## Tools & Skills Demonstrated
 
-* Splunk Enterprise (Free Tier)
+* Splunk Enterprise 
 * Data ingestion via Universal Forwarder / Local files
 * Security-focused log parsing & filtering
 * SPL (Search Processing Language)
@@ -34,7 +34,9 @@ Splunk’s powerful query language (SPL) and visualization capabilities were use
 * Dashboards built inside Splunk UI
 
 > ✅ Screenshot: Splunk dashboard homepage
+> ![](./screenshots/splunk-home.png)
 > ✅ Screenshot: Log source configuration interface
+> ![](./screenshots/log-source-config.png)
 
 ---
 
@@ -49,6 +51,7 @@ index=win_logs sourcetype=WinEventLog:Security EventCode=4625
 ```
 
 > ✅ Screenshot: Table showing repeated failed logins from one IP
+> ![](./screenshots/repeated-failed-logins.png)
 
 ---
 
@@ -62,6 +65,7 @@ index=win_logs sourcetype=WinEventLog:Security EventCode=4624
 ```
 
 > ✅ Screenshot: Visual showing admin login outside business hours
+> ![](./screenshots/sus-admin-logon.png)
 
 ---
 
@@ -74,6 +78,7 @@ index=win_logs EventCode=4672
 ```
 
 > ✅ Screenshot: Highlighted user with high privilege use frequency
+> ![](./screenshots/excessive-privilege-use.png)
 
 ---
 
@@ -86,6 +91,7 @@ Custom dashboards were created to:
 * Display time-based event patterns
 
 > ✅ Screenshot: Dashboard layout showing interactive visualizations
+> ![](./screenshots/host-incidence-dashboard.png)
 
 ---
 
